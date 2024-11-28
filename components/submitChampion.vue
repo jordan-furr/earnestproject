@@ -8,16 +8,16 @@ const email = ref('');
 const emailPlaceholder = ref('name or project...');
 
 async function submitEmail() {
-    emailPlaceholder.value = 'your email...';
+    emailPlaceholder.value = 'name or project...';
     try {
         const docRef = await addDoc(collection($db, "champions"), {
-            email: email.value,
+            name: email.value,
             timestamp: new Date()
         });
     } catch (e) {
-        console.error("Error adding email: ", e);
+        console.error("Error adding name: ", e);
     }
-    console.log('Email submitted:', email);
+    console.log('name submitted:', email);
     email.value = '';
 }
 </script>
