@@ -8,18 +8,18 @@
                     </p>
                     <div class="flex flex-row flex-start">
                         <div class="flex flex-row nav-menu">
-                            <p>
-                                <a href="/about" class="menu-item"  exact-active-class="active">Manifesto</a>
-                            </p>
-                            <p>
-                                <a href="/champions" class="menu-item" exact-active-class="active">Champions</a>
-                            </p>
-                            <p>
-                                <a href="/collaborate" class="menu-item" exact-active-class="active">Collab</a>
-                            </p>
-                            <p>
-                                <a href="/patch" class="menu-item" to="/patch" exact-active-class="active">STAY EARNEST</a>
-                            </p>
+                            <nuxt-link to="/about" class="menu-item" exact-active-class="active">
+                                <p>Manifesto</p>
+                            </nuxt-link>
+                            <nuxt-link to="/champions" class="menu-item" exact-active-class="active">
+                                <p>Champions</p>
+                            </nuxt-link>
+                            <nuxt-link to="/collaborate" class="menu-item" exact-active-class="active">
+                                <p>Collaborate</p>
+                            </nuxt-link>
+                            <nuxt-link to="/patch" class="menu-item" exact-active-class="active">
+                                <p>Patches</p>
+                            </nuxt-link>
                         </div>
                     </div>
                     <div class="mobile-menu">

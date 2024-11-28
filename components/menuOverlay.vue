@@ -3,30 +3,36 @@
         <nav @click.stop>
             <ul>
                 <li>
-                    <NuxtLink class="menu-item" to="/" @click="closeMenu" exact-active-class="active">Home
-                    </NuxtLink>
+                    <nuxt-link to="/" class="menu-item" @click="closeMenu" exact-active-class="active">
+                        <p>Home</p>
+                    </nuxt-link>
                 </li>
                 <li>
-                    <NuxtLink class="menu-item" to="/about" @click="closeMenu" exact-active-class="active">About
-                    </NuxtLink>
+                    <nuxt-link to="/about" class="menu-item" @click="closeMenu" exact-active-class="active">
+                        <p>About</p>
+                    </nuxt-link>
                 </li>
                 <li>
-                    <NuxtLink class="menu-item" to="/champions" @click="closeMenu" exact-active-class="active">Champions
-                    </NuxtLink>
+
+                    <nuxt-link to="/champions" class="menu-item" @click="closeMenu" exact-active-class="active">
+                        <p>Champions</p>
+                    </nuxt-link>
                 </li>
                 <li>
-                    <NuxtLink class="menu-item" to="/collaborate" @click="closeMenu" exact-active-class="active">Collab
-                    </NuxtLink>
+                    <nuxt-link to="/collaborate" class="menu-item" @click="closeMenu" exact-active-class="active">
+                        <p>Collaborate</p>
+                    </nuxt-link>
                 </li>
                 <li>
-                    <NuxtLink class="menu-item" to="/patch" @click="closeMenu" exact-active-class="active">STAY EARNEST
-                    </NuxtLink>
+                    <nuxt-link to="/patch" class="menu-item" @click="closeMenu" exact-active-class="active">
+                        <p>Patches</p>
+                    </nuxt-link>
                 </li>
             </ul>
         </nav>
     </div>
 </template>
-  
+
 <script>
 export default {
     props: {
@@ -44,4 +50,4 @@ export default {
         }
     }
 }
-</script>  
+</script>
