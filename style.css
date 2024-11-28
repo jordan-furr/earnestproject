@@ -920,7 +920,7 @@ a {
 
 .email-box input[type="email"] {
     flex: 1;
-    margin-left: 4px;
+    margin-left: 10px;
     border: none;
     background-color: transparent;
     transition: border-bottom-color 0.3s ease;
@@ -943,7 +943,7 @@ a {
 
 
 .email-box button {
-    padding: 12px 24px;
+    padding: 12px;
     border: none;
     border-radius: 0px;
     background-color: transparent;
@@ -955,7 +955,7 @@ a {
 }
 
 .email-box button:hover {
-    color: var(--lightyellow);
+    color: var(--yellow);
     transition: 200ms ease;
 }
 
