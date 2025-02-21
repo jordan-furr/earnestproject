@@ -32,7 +32,7 @@
             </div>
         </div>
         <div class="">
-            <p class="copyright">© 2024 The Earnest Project by <a href="https://upschool.org" class="bluecursor">UP
+            <p class="copyright">© 2025 The Earnest Project by <a href="https://upschool.org" class="bluecursor">UP
                     School</a></p>
         </div>
         <div class="twenty-spacer"></div>
