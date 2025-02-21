@@ -8,12 +8,12 @@
                         <br>
                         <p>We are always curious to explore co-hosting community events, researching earnest
                             projects/people,
-                            and creating otherwise earnest material. Please reach out to explore what you have in mind.</p>
+                            and creating material. Please reach out.</p>
                     </div>
                     <div class="mb6">
                         <p class="boldspace">INTERVIEW</p>
                         <br>
-                        <p>Are you interested in being interviewed for The Earnest Project?</p>
+                        <p>Whether you would like to interview the project or be interviewed, send us an email.</p>
                     </div>
                 </div>
             </div>
