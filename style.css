@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-    --orange: #DD7D4E;
+    --orange: #D37140;
     --darkorange: #C45A16;
     --blue: #367EBA;
     --midblue: #A3C6E6;
@@ -754,7 +754,8 @@ a {
 }
 
 .menu-item:hover {
-    color: var(--yellow);
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .logo-patch {
@@ -782,8 +783,8 @@ a {
 }
 
 .logo-patch:hover {
-    transition: 300ms ease-in-out;
-    transform: scale(105%);
+    transition: 200ms ease-in-out;
+    transform: scale(104%);
 }
 
 .active p {
@@ -810,6 +811,11 @@ a {
     padding-right: 3rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
+}
+
+.home-venn:hover {
+    transition: 300ms ease-in-out;
+    transform: scale(102%);
 }
 
 .hover-auth,
@@ -1085,12 +1091,14 @@ img {
 }
 
 .footer {
-    background-color: #c9a48f;
+    background-color: var(--blue);
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2.5rem;
     padding-bottom: 2rem;
+    border-top: white 4px solid;
 }
+
 
 .bg-yellow {
     background-color: var(--yellow);

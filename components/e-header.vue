@@ -9,16 +9,16 @@
                     <div class="flex flex-row flex-start">
                         <div class="flex flex-row nav-menu">
                             <nuxt-link to="/about" class="menu-item" exact-active-class="active">
-                                <p>Manifesto</p>
+                                <p class="menu-item">Manifesto</p>
                             </nuxt-link>
                             <nuxt-link to="/champions" class="menu-item" exact-active-class="active">
-                                <p>Champions</p>
+                                <p class="menu-item">Champions</p>
                             </nuxt-link>
                             <nuxt-link to="/collaborate" class="menu-item" exact-active-class="active">
-                                <p>Collaborate</p>
+                                <p class="menu-item">Collaborate</p>
                             </nuxt-link>
                             <nuxt-link to="/patch" class="menu-item" exact-active-class="active">
-                                <p>Patches</p>
+                                <p class="menu-item">Patches</p>
                             </nuxt-link>
                         </div>
                     </div>

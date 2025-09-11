@@ -36,8 +36,8 @@
                 <br>
             </div>
         </div>
-    </div>
-    <div class="logo-patch-container w-15">
-        <a href="/patch"><img class="logo-patch w-66 float-right" src="/img/Earnest Project Patch.png" alt=""></a>
+        <div class="logo-patch-container w-15">
+            <a href="/patch"><img class="logo-patch w-66 float-right" src="/img/Earnest Project Patch.png" alt=""></a>
+        </div>
     </div>
 </template>
