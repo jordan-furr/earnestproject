@@ -24,6 +24,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.15;
+    font-size: 18px;
     font-family: 'Open Sans';
     scroll-behavior: smooth !important;
 }
@@ -162,6 +163,10 @@ h6 {
 
 .w-66 {
     width: 66.666%;
+}
+
+.w-65 {
+    width: 65%;
 }
 
 .w-60 {
@@ -904,8 +909,8 @@ a {
 .tabs li .tab-label {
     cursor: url('/img/2.png'), auto;
     color: white;
-    font-size: 16px;
-    line-height: 1.15;
+    font-size: 18px;
+    line-height: 1.25;
 }
 
 .tabs li.active .tab-label {
@@ -966,7 +971,7 @@ a {
 }
 
 .copyright {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 img {
@@ -1015,8 +1020,18 @@ img {
 }
 
 .champions {
-    height: 66vh;
+    height: 50vh;
     overflow-y: scroll;
+    line-height: 1.25;
+    border: 2px solid white;
+}
+
+.champion {
+    font-size: 22;
+}
+
+.champion-marg {
+    margin: 1rem;
 }
 
 *::-webkit-scrollbar {
@@ -1024,7 +1039,7 @@ img {
 }
 
 .champions::-webkit-scrollbar {
-    width: 10px;
+    width: 42px;
     display: block;
 }
 
@@ -1037,11 +1052,7 @@ img {
 }
 
 .champions::-webkit-scrollbar-thumb:hover {
-    background: var(--green);
-}
-
-.champion:hover {
-    text-decoration: underline;
+    background: var(--midblue);
 }
 
 .tab-content {
@@ -1086,8 +1097,7 @@ img {
 .menu-overlay nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 28px;
 }
 
 .footer {
@@ -1096,7 +1106,7 @@ img {
     padding-right: 2rem;
     padding-top: 2.5rem;
     padding-bottom: 2rem;
-    border-top: white 4px solid;
+    border-top: white 2px solid;
 }
 
 
@@ -1397,10 +1407,6 @@ img {
     .champions {
         height: max-content;
         overflow-y: visible;
-    }
-
-    .champion-marg {
-        margin: 0;
     }
 
     .logo-patch-container {

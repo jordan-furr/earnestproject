@@ -1,5 +1,5 @@
 <template>
-    <div class="mb6">
+    <div>
         <p class="boldspace mb2 yellow">WRITERS & POETS</p>
         <p class="champion">Naomi Shihab Nye</p>
         <p class="champion">Pádraig Ó Tuama</p>
@@ -46,6 +46,5 @@
         <p class="champion">David & Pamela Hornik</p>
         <p class="champion">Benjamin & Kaspia Gilmour</p>
         <p class="champion">John & Margi Dehlin</p>
-        <br>
     </div>
 </template>

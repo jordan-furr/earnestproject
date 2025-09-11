@@ -1,7 +1,7 @@
 <template>
     <div class="page">
         <div class="flex flex-row space-between mobile-col">
-            <div class="mb6 w-20 text-div">
+            <div class="mb6 w-25 text-div">
                 <div class="w-90">
                     <p class="boldspace">"STAY EARNEST" PATCHES</p>
                     <br>
@@ -15,9 +15,9 @@
             <div class="w-60 text-center mt6 ph3 big-patch">
                 <img class="w-50 fade-in" src="/img/Earnest Project Patch.png" alt="">
             </div>
-            <div class="w-20 text-right hide-mobile">
+            <div class="w-25 text-right hide-mobile">
                 <div class="mb6">
-                    <p class="boldspace">CONTACT</p>
+                    <p class="boldspace">REQUEST A PATCH</p>
                     <br>
                     <span v-if="copiedLeft" class="copiedLeft">copied!</span>
                     <span @click="copyEmail" style="color: white;" class="contactemail">info@upschool.org</span>
