@@ -24,8 +24,8 @@ async function submitEmail() {
 
 <template>
     <div>
-        <p>Join our community celebrating earnest living. You'll receive project updates, research findings, and
-            exclusive stories.</p>
+        <p>Earnest Project updates, research findings, and
+            exclusive stories celebrating earnest living.</p>
         <br>
         <div class="email-box fade-in">
             <input type="email" id="emailInput" v-model="email" :placeholder="emailPlaceholder" autocomplete="off"

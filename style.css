@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 :root {
-    --orange: #DD7D4E;
+    --orange: #D37140;
     --darkorange: #C45A16;
     --blue: #367EBA;
     --midblue: #A3C6E6;
@@ -24,6 +24,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.15;
+    font-size: 18px;
     font-family: 'Open Sans';
     scroll-behavior: smooth !important;
 }
@@ -162,6 +163,10 @@ h6 {
 
 .w-66 {
     width: 66.666%;
+}
+
+.w-65 {
+    width: 65%;
 }
 
 .w-60 {
@@ -754,7 +759,8 @@ a {
 }
 
 .menu-item:hover {
-    color: var(--yellow);
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
 
 .logo-patch {
@@ -782,8 +788,8 @@ a {
 }
 
 .logo-patch:hover {
-    transition: 300ms ease-in-out;
-    transform: scale(105%);
+    transition: 200ms ease-in-out;
+    transform: scale(104%);
 }
 
 .active p {
@@ -810,6 +816,11 @@ a {
     padding-right: 3rem;
     padding-top: 2rem;
     padding-bottom: 3rem;
+}
+
+.home-venn:hover {
+    transition: 300ms ease-in-out;
+    transform: scale(102%);
 }
 
 .hover-auth,
@@ -898,8 +909,8 @@ a {
 .tabs li .tab-label {
     cursor: url('/img/2.png'), auto;
     color: white;
-    font-size: 16px;
-    line-height: 1.15;
+    font-size: 18px;
+    line-height: 1.25;
 }
 
 .tabs li.active .tab-label {
@@ -960,7 +971,7 @@ a {
 }
 
 .copyright {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 img {
@@ -1009,8 +1020,18 @@ img {
 }
 
 .champions {
-    height: 66vh;
+    height: 50vh;
     overflow-y: scroll;
+    line-height: 1.25;
+    border: 2px solid white;
+}
+
+.champion {
+    font-size: 22;
+}
+
+.champion-marg {
+    margin: 1rem;
 }
 
 *::-webkit-scrollbar {
@@ -1018,7 +1039,7 @@ img {
 }
 
 .champions::-webkit-scrollbar {
-    width: 10px;
+    width: 42px;
     display: block;
 }
 
@@ -1031,11 +1052,7 @@ img {
 }
 
 .champions::-webkit-scrollbar-thumb:hover {
-    background: var(--green);
-}
-
-.champion:hover {
-    text-decoration: underline;
+    background: var(--midblue);
 }
 
 .tab-content {
@@ -1080,17 +1097,18 @@ img {
 .menu-overlay nav ul li a {
     text-decoration: none;
     color: white;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 28px;
 }
 
 .footer {
-    background-color: #c9a48f;
+    background-color: var(--blue);
     padding-left: 2rem;
     padding-right: 2rem;
     padding-top: 2.5rem;
     padding-bottom: 2rem;
+    border-top: white 2px solid;
 }
+
 
 .bg-yellow {
     background-color: var(--yellow);
@@ -1389,10 +1407,6 @@ img {
     .champions {
         height: max-content;
         overflow-y: visible;
-    }
-
-    .champion-marg {
-        margin: 0;
     }
 
     .logo-patch-container {

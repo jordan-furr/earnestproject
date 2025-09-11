@@ -16,23 +16,14 @@
                     </div>
                 </div>
             </div>
-            <div class="w-35 text-div mb7">
-                <div class="w-80 footer-div">
-                    <p class="boldspace">EARNEST DEFINITION</p>
-                    <br>
-                    <p>Earnest individuals are genuine, sincere, and put
-                        forth honest effort in what they do, demonstrating a deep level of dedication and integrity.
-                    </p>
-                </div>
-            </div>
-            <div class="w-30 text-div newsletter footer-div">
+            <div class="w-75 text-div newsletter footer-div">
                 <p class="boldspace">NEWSLETTER</p>
                 <br>
                 <newsletter />
             </div>
         </div>
         <div class="">
-            <p class="copyright">© 2025 The Earnest Project by <a href="https://upschool.org" class="bluecursor">UP
+            <p class="copyright">© 2025 The Earnest Project by <a href="https://upschool.org" class="bluecursor under-hov">UP
                     School</a></p>
         </div>
         <div class="twenty-spacer"></div>

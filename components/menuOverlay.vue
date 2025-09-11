@@ -9,13 +9,13 @@
                 </li>
                 <li>
                     <nuxt-link to="/about" class="menu-item" @click="closeMenu" exact-active-class="active">
-                        <p>About</p>
+                        <p>Manifesto</p>
                     </nuxt-link>
                 </li>
                 <li>
 
                     <nuxt-link to="/champions" class="menu-item" @click="closeMenu" exact-active-class="active">
-                        <p>Champions</p>
+                        <p>Nominate Champions</p>
                     </nuxt-link>
                 </li>
                 <li>
@@ -25,7 +25,7 @@
                 </li>
                 <li>
                     <nuxt-link to="/patch" class="menu-item" @click="closeMenu" exact-active-class="active">
-                        <p>Patches</p>
+                        <p>Earnest Patches</p>
                     </nuxt-link>
                 </li>
             </ul>

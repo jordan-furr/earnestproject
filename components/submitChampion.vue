@@ -5,7 +5,7 @@ import { collection, addDoc, getDocs } from 'firebase/firestore/lite';
 
 const { $db } = useNuxtApp();
 const email = ref('');
-const emailPlaceholder = ref('name or project...');
+const emailPlaceholder = ref('enter a name and any details...');
 
 async function submitEmail() {
     emailPlaceholder.value = 'name or project...';
