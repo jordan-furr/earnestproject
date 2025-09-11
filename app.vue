@@ -9,12 +9,17 @@
 </template>
 
 
-<script setup lang="ts">
-useSeoMeta({
-  title: 'Earnest Project',
-  ogTitle: 'Earnest Project',
-  description: 'Can Earnestness Change the World? Our Exploration Begins Here',
-  ogDescription: 'Can Earnestness Change the World? Our Exploration Begins Here',
-  ogImage: '/img/Earnest Social Share.png',
-});
+<script setup>
+
+useHead({
+  title: 'Earnest',
+  meta: [
+    { property: 'og:title', content: 'Earnest Project' },
+    { property: 'og:description', content: 'Can Earnestness Change the World? Our Exploration Begins Here' },
+    { property: 'og:image', content: 'https://earnestproject.com/earnestproject.png' },
+    { property: 'og:image:type', content: 'image/png' },
+    { property: 'og:image:width', content: '1200' },
+    { property: 'og:image:height', content: '630' }
+  ]
+})
 </script>
